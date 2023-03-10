@@ -12,12 +12,12 @@
 }
 
 .primary-btn {
-    background: $primary-color;
+    background: #FFFE09;
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
     border: none;
-    color: $white;
+    color: #FFFE09;
     display: inline-block;
     font-weight: 500;
     position: relative;
@@ -28,7 +28,7 @@
         outline: none;
     }
     span {
-        color: $white;
+        color: #04091E;
         position: absolute;
         top: 50%;
         transform: translateY(-60%);
@@ -36,35 +36,35 @@
         @include transition();
     }
     &:hover {
-        color: $white;
+        color: #FFFE09;
         span {
-            color: $white;
+            color: #FFFE09;
             right: 20px;
         }
     }
     &.white {
-        border: 1px solid $white;
-        color: $white;
+        border: 1px solid #FFFE09;
+        color: #FFFE09;
         span {
-            color: $white;
+            color: #FFFE09;
         }
         &:hover {
-            background: $white;
-            color: $primary-color;
+            background: #FFFE09;
+            color: #FFFE09;
             span {
-                color: $primary-color;
+                color: #FFFE09;
             }
         }
     }
 }
 
 .primary-btn.wh{
-    background:$white;
+    background:#FFFE09;
     color:$black;
     text-transform: uppercase;
     &:hover{
         background:$black;
-        color:$white;
+        color:#FFFE09;
     }
 }
 
@@ -73,9 +73,9 @@
     border-radius: 0px!important;
     border: 1px solid transparent;
     &:hover {
-        border: 1px solid $white;
+        border: 1px solid #FFFE09;
         background: transparent;
-        color: $white;
+        color: #FFFE09;
     }
 }
 
@@ -116,11 +116,11 @@
 .banner-content {
     text-align: left;
     h1 {
-        font-size: 48px;
+        font-size: 45px;
         font-weight: 700;
         line-height: 1em;
         margin-top: 10px;
-        color: $white;
+        color: #FFFE09;
         @include media-breakpoint-down(md) {
             font-size: 36px;
         }
@@ -138,13 +138,13 @@
     }
 
     .primary-btn {
-        background-color: $primary-color;
-        color: $white;
+        background-color: #FFFE09;
+        color: $black;
         font-weight: 600;
         font-size: 14px;
         &:hover {
-            background-color: $white;
-            color:$primary-color;
+            background-color: $black;
+            color: $black;
         }
     }
 }
@@ -165,7 +165,7 @@
         padding:20px 0px;
         @include transition();
         h4{
-            color:$white;
+            color:#020131;
         }
     }
     .desc-wrap{
@@ -182,11 +182,11 @@
     &:hover{
         cursor:pointer;
         .title{
-            background:$primary-color;
+            background: #020131;
         }
         .desc-wrap{
             a{
-                color:$primary-color;
+                color: #020131;
             }
         }
     }
@@ -251,14 +251,14 @@
         p{
             font-size:12px;
             font-weight:300;
-            color:$white;
+            color:#FFFE09;
             margin-bottom:0px;
             .lnr{
                 margin:0px 5px;
             }
         }
         h4{
-            color:$white;
+            color:#FFFE09;
         }
     } 
     .details{
@@ -343,7 +343,7 @@
             }
             h4{
                 margin:20px 0px;
-                color:$white;
+                color:#FFFE09;
             }
             p{
                 margin-bottom:0px;
@@ -571,7 +571,7 @@
                 margin-right: 8px;
             }
             span {
-                color: $white;
+                color: #FFFE09;
                 font-weight: 600;
             }
             background: $primary-color;
@@ -588,7 +588,7 @@
     background:url(../img/cta-bg.jpg) center;
     background-size:cover;
     text-align:center;
-    color:$white;
+    color:#FFFE09;
     h1,p{
         position:relative;
     }
@@ -610,7 +610,7 @@
     .cta-left{
         text-align:left;
         h1{
-            color:$white;
+            color:#FFFE09;
             font-weight: 700;
         }
     }
@@ -651,7 +651,7 @@
         font-weight: 600;
     }
     a {
-        color: $white;
+        color: #FFFE09;
         font-weight: 300;
         font-size: 14px;
     }
